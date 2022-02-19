@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    font-size: 1.8rem;
+   font-family: 'calibri', Times, serif;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+    overflow: hidden;
+
+}
+
+.headerButton{
+    font-family: 'calibri', Times, serif;
+    font-size: 1.5rem;
+    border: none;
+    padding: 5px 5px;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.headerButton:hover{
+opacity: 0.5;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+
+.flex-container > div{
+    background-color: gray;
+    text-align: center;
+    width: 100px;
+    line-height: 70px;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+@media all and (max-width: 500px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+}
+

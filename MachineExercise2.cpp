@@ -59,7 +59,6 @@ do
 
 			else
 		{
-
 				for (int i = 0; i < 5; i++)
 			{
 				for (int j = 0; j < 7; j++)
@@ -75,8 +74,8 @@ do
 				}
 
 			}
-		// 	User is not allowed to reserve a previously reserved seat.  Display “Seat is taken” remarks.
-		if ( x == 1)
+		// 	User is not allowed to reserve a previously reserved seat.  Display Seat is taken� remarks.
+		if ( x == 0)
 		{
 			cout << " Seat is taken ";
 		}
